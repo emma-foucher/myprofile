@@ -1,0 +1,134 @@
+ /* Colors and fonts */
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+	background-color: rgb(255 230 235);
+	color: red;
+	font-family: "Acme", sans-serif;
+	font-size: 17px;
+
+}
+
+
+h1 {
+	color: rgb(128, 0, 0);
+	font-family: "Abril Fatface", serif;
+	font-weight: 800;
+}
+
+h2 {
+    color: rgb(120 85 85);
+	font-family: "Acme", sans-serif;
+}
+
+p {
+	color: rgb(255, 110, 110);
+}
+
+
+#profile-circle {
+	border-radius: 50%;
+	width: 250px;
+	margin: 0;
+}
+
+.bloc-center {
+	width: 900px;
+	margin: 40px auto;
+}
+
+.section-center {
+	background-color: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	text-align: center;
+}
+
+
+
+.btn-pink {
+	background-color: rgb(128, 0, 0);
+	background-size: 100px 100px;
+	color: white;
+	padding: 15px 2px;
+	border-radius: 4px;
+  width: 100px;
+  margin: auto;
+}
+
+a {
+	color: rgb(128, 0, 0);
+	text-decoration: none;
+}
+
+.link_white {
+	color: white;
+}
+
+.btn-pink:hover {
+	background-color: lightpink;
+}
+
+.list-inline {
+	background-color: rgb(128, 0, 0 / 1.0);
+	background-size: 100px 100px;
+	color: rgb(255, 255, 255 / 1.0);
+	padding: 15px 2px;
+	border-radius: 4px;
+  width: 100px;
+  margin: auto;
+	list-style: none; 
+  padding-left: 0px;
+  display: inline;
+}
+
+.list-inline > li {
+  	display: inline; 
+  	padding: 5px 20px;	
+ } 
+
+
+
+.list-inline :hover {
+	background-color: lightpink;
+	color: white;
+}
+
+.fa-brands{
+	font-size: larger;
+}
+
+
+@media (max-width : 960px) {
+	.bloc-center {
+		width: 700px;
+	}
+}
+@media (max-width : 720px) {
+	.bloc-center {
+		width: 500px;
+	}
+}
+@media (max-width : 540px) {
+	.bloc-center {
+		width: 300px;
+	}
+}
+
+
+
